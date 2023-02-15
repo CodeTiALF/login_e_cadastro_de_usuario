@@ -33,4 +33,10 @@ O código é usado para cadastrar novos usuários e autenticar usuários existen
     - Verifica se a consulta SQL retornou exatamente um registro.
     - Exibe uma mensagem de sucesso se o usuário foi autenticado com sucesso, ou uma mensagem de erro se as credenciais de login forem inválidas.
     
+Melhorias a serem feitas:
+    - Verificar se ja existe o usuario antes de cadastrar
+    - criptografar o nome
+    - acrecentar o email, telefone e criptografar ambos
+    - permitir logim por memail ou numero telefonico
+    - ciar o recuperar senha via email, SMS ou whatsapa
     
