@@ -1,6 +1,9 @@
 # login_e_cadastro_de_usuario
 Um simples formulário em PHP + CSS + HTML para login e cadastrar usuário, utilizando de alguns métodos de segurança.
 
+Objetivo do código:
+Este código tem como objetivo conectar a um banco de dados MySQL, cadastrar um novo usuário ou autenticar um usuário existente. 
+
 Resumo:
 - Esse é um código em PHP que realiza o cadastro e autenticação de usuários em um banco de dados MySQL.
 - A primeira parte do código é responsável por conectar o banco de dados MySQL, utilizando as informações do servidor, nome de usuário e senha definidos na parte superior do código.
@@ -11,7 +14,8 @@ Resumo:
 - --- "Resumo feito por ChatGPT, uma inteligência artificial da OpenAI".
 
 Especificação do código:
-Este código tem como objetivo conectar a um banco de dados MySQL, cadastrar um novo usuário ou autenticar um usuário existente. 
+O código é usado para cadastrar novos usuários e autenticar usuários existentes em um site por login. Ele usa a classe PDO para conectar e executar consultas SQL em um banco de dados MySQL. Além disso, o código usa placeholders em todas as consultas SQL para prevenir injeção de SQL.
+
 1. Conexão com o banco de dados
     - Define as informações de host, nome do banco de dados, usuário e senha.
     - Utiliza essas informações para criar uma nova instância da classe PDO, que é uma classe para manipulação de banco de dados em PHP.
