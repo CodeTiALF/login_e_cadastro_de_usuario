@@ -49,5 +49,11 @@
 	$stmt->execute(); // executa a consulta SQL
 
 	// Verifica se o usuário foi autenticado
-
+	if ( isset($_POST['login']) ) { // verifica se o botão "login" foi pressionado
+		if ($stmt->rowCount() == 1) { // se a consulta SQL retornou um resultado
+			echo "<div class='message success'>Usuário autenticado com sucesso!</div>"; // Se o usuário foi autenticado com sucesso, exibe mensagem de sucesso
+		} else { 
+			echo "<div class='message invalid'>Usuário ou senha inválidos!</div>"; // Se o usuário não foi autenticado, exibe mensagem de erro
+		}
+	}
 ?>
