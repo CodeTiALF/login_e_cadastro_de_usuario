@@ -66,6 +66,103 @@
 <html>
 	<head>
 		<title>Login</title>
+		<style>
+			.form-container {
+			  max-width: 300px;
+			  margin: 0 auto;
+			  padding: 20px;
+			  background-color: #f5f5f5;
+			  border-radius: 10px;
+			  margin-top: 20px;
+			  margin-bottom: 10px;
+			}
+			
+			.div-container {
+			  display: flex;
+			  flex-direction: row;
+			  flex-wrap: nowrap;
+			  align-content: center;
+			  justify-content: center;
+			  align-items: stretch;
+			}
+			
+			/* Definindo o estilo do formulário */
+			form {
+			  max-width: 300px;
+			  margin: 0 auto;
+			  padding: 20px;
+			  background-color: #f5f5f5;
+			  border-radius: 10px;
+			}
+
+			/* Estilizando as caixas de texto */
+			input[type=text], input[type=password] {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  box-sizing: border-box;
+			  border: 2px solid #ccc;
+			  border-radius: 4px;
+			}
+
+			/* Estilizando o botão de envio */
+			input[type=submit] {
+			  background-color: #4CAF50;
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+			}
+
+			/* Mudando a cor do botão quando o mouse está em cima */
+			input[type=submit]:hover {
+			  background-color: #45a049;
+			}
+
+			/* Estilizando o título do formulário */
+			h2 {
+			  text-align: center;
+			  font-size: 24px;
+			  color: #333;
+			  margin-bottom: 20px;
+			}
+			
+			/* Estilizando as mensagens */
+			.message {
+			  max-width: 300px;
+			  margin: 0 auto;
+			  padding: 20px;
+			  background-color: #f5f5f5;
+			  border-radius: 10px;
+			  margin-top: 20px;
+			  margin-bottom: 10px;
+			  color: #333;
+			  font-weight: bold;
+			  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+			}
+
+			.message.invalid {
+			  background-color: #fff3cd;
+			  color: #856404;
+			}
+
+			.message.success {
+			  background-color: #cce5ff;
+			  color: #004085;
+			}
+
+			.message.created {
+			  background-color: #d4edda;
+			  color: #155724;
+			}
+
+			.message.error {
+			  background-color: #f8d7da;
+			  color: #721c24;
+			}
+		</style>
 	</head>
 	<body>
 		<!-- container para os formulários de login e cadastro -->
