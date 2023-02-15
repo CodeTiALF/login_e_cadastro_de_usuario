@@ -1,10 +1,16 @@
 <?php
-	/*
-		Código criado por André Luis Filus.
+	/*	Código criado por André Luis Filus.
 		Auxílio fornecido por ChatGPT.
-		Site: https://www.chatgpt.com.br
-	*/
-
+		Site: https://www.chatgpt.com.br 	*/
+	
+	/*	Criar a tabela no mySQL
+		CREATE TABLE `users_teste` (
+		 `id` int(11) NOT NULL AUTO_INCREMENT,
+		 `username` varchar(50) NOT NULL,
+		 `password` varchar(64) NOT NULL,
+		 PRIMARY KEY (`id`)
+		) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci	*/
+	
 	// Conecta ao banco de dados
 	$db_host = "localhost"; // endereço do banco de dados
 	$db_name = "xxx"; // nome do banco de dados
