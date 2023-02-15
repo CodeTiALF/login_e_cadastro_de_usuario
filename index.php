@@ -56,3 +56,61 @@
 		}
 	}
 ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+	</head>
+	<body>
+		<!-- container para os formulários de login e cadastro -->
+		<div class="div-container">
+			
+			<!-- formulário de login -->
+			<div class="form-container">
+				
+				<!-- cabeçalho do formulário -->
+				<h2>Login Usuário</h2>
+				
+				<!-- formulário de login -->
+				<form method="post" action="">
+					
+					<!-- campo para inserir o nome de usuário -->
+					<label for="username">Usuário:</label>
+					<input type="text" id="username" name="username" required>
+					<br><br> <!-- espaço entre o input o botão -->
+					
+					<!-- campo para inserir a senha -->
+					<label for="password">Senha:</label>
+					<input type="password" id="password" name="password" required>
+					<br><br> <!-- espaço entre o input o botão -->
+					
+					<!-- botão de login -->
+					<input type="submit" name="login" value="Entrar">
+				</form>
+			</div>
+			
+			<!-- formulário de cadastro -->
+			<div class="form-container">
+				
+			  <!-- cabeçalho do formulário -->
+			  <h2>Cadastrar Usuário</h2>
+				
+			  <!-- formulário de cadastro -->
+			  <form action="" method="post">
+				  
+				<!-- campo para inserir o nome de usuário -->
+				<label for="username">Nome de usuário:</label>
+				<input type="text" id="username" name="username" required>
+
+				<!-- campo para inserir a senha -->
+				<label for="password">Senha:</label>
+				<input type="password" id="password" name="password" required>
+
+				<!-- botão de cadastro -->
+				<input type="submit" name="cadastrar" value="CADASTAR">
+			  </form>
+			</div>
+		</div>
+	</body>
+					
+					
